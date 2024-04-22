@@ -17,8 +17,8 @@
    else{
          alert("thankyou " + vlastname);
    }
-   if(First.ludo.checked) 
-       alert("You have selected ludo");
+   if(!First.ludo.checked)
+       alert("You have not selected ludo");
  }
   
 </script>
@@ -41,8 +41,9 @@
       <br>
       <input type="checkbox" name="cricket">cricket
       <br>
-      <input type="checkbox" name="football" checked >football
-      <br>
+      <input type="checkbox" name="football" >football
+      <be>
+      <input type="checkbox" name="none"> None of the above
       <br>
       Address:
       <input type="textarea" name="address" rows="4" cols="50">
