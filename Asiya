@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aashiya - Liquid Helium</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+   <div class="logo">
+     <img src="https://logos.textgiraffe.com/logos/logo-name/Asiya-designstyle-colors-m.png" width="250alt="Asiya">
+      <br>
+       Address:Powai,Excel tower
+      </div>
+      <nav>
+        <ul>
+          <li  Style="display:inline-block"><a href="#home">Home</a></li>
+          <li  Style="display:inline-block"><a href="#products">Products</a></li>
+          <li  Style="display:inline-block"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h1>Liquid Helium</h1>
+      <p>Discover our premium quality liquid helium products.</p>
+    </div>
+  </section>
+    <br>
+
+  <section id="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product">
+        <img src="https://image.made-in-china.com/2f0j00cKUiPZSGCugj/500L-SUS304-Lhe-Liquid-Helium-Storage-Dewar-Tank.webp" width="400" alt="Liquid Helium Product 1">
+        <h3>Product : Liquid Helium </h3>
+         <br><br>
+         Product Pricing On Request Only 
+  <table border="1" cellpadding="6" cellspacing="4" >
+    <tr cellspacing="8">
+      <th colspan="2" align="left"  ><b> Product Details:</b></th>
+    </tr>
+    <tr>
+      <td>Shape                   </td>
+      <td>Cylindrical             </td>
+    </tr>
+    <tr>
+       <td>Body Material          </td>
+       <td>SS                     </td>
+    </tr>
+    <tr>
+       <td>Appearance             </td>
+       <td>Colorless              </td>
+    </tr>
+    <tr>
+       <td>Form                   </td>
+       <td>Liquid                 </td>
+    </tr>
+   </table>
+     <br>
+     <br>
+       <p>We are offering Liquid Helium to our client..</p>
+         <br> 
+         <strong> Additional Information:</strong>
+          <br>
+            Delivery Time: 2 to 10 days Minimum 
+      </div>
+      <!-- Repeat the above div for each liquid helium product -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><b>Office:</b>
+          Powai,Excel tower.
+         <br>
+        <b>Phone Number:</b>
+           (+91)7506737625
+         <br>
+       <b>email:</b>
+           <asiyahelium@gmail.com
+         <br>
+       <b>Working hours:</b>
+           Mon-Sun 08:00 AM - 7:00 PM
+        
+        
+</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Aashiya. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
