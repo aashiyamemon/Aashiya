@@ -21,14 +21,16 @@
        alert("You have not selected game");
   var vage="";
    for(i=0; i<=2; i++ ){
-     alert(First.age[i].value);
+    
      if(First.age[i].checked){
 
        vage=First.age[i].value;
      }
      
    }
-  alert(vage);
+  if(vage=""){
+   alert("You have not selected the Age Group");
+  }
   
 
  }
