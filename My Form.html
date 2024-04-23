@@ -19,10 +19,13 @@
    }
    if((!First.ludo.checked) && (!First.cricket.checked) && (!First.football.checked) && (!First.none.checked))
        alert("You have not selected game");
-  var vage=First.age.value;
+  var vage="";
+   for(i=0; i<=2; i++ ){
+     alert(First.age[i].value)
+   }
   
-   if(vage==""){
-         alert("Please select Age Group");
+  
+
  }
   
 </script>
