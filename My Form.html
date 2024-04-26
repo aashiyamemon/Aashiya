@@ -9,15 +9,17 @@
  function validatemyform()
  { 
 
-   var vlastname=First.b.value;
+   var vlastname=First.entry.1330913344.value;
   
    if(vlastname==""){
-         alert("Please enter Last Name");
+         alert("Please enter Last Name"); 
+          return false;
    }
    else{
          alert("thankyou " + vlastname);
+ return true;
    }
-   if((!First.ludo.checked) && (!First.cricket.checked) && (!First.football.checked) && (!First.none.checked))
+   <!--if((!First.ludo.checked) && (!First.cricket.checked) && (!First.football.checked) && (!First.none.checked))
        alert("You have not selected game");
   var vage="";
    for(i=0; i<=2; i++ ){
@@ -34,7 +36,7 @@
   }
 if((!First.age[0].checked) && (!First.age[1].checked) && (!First.age[2].checked) ){
 alert("You have not selected Age Group");
-}
+}-->
   
 
  }
@@ -82,7 +84,7 @@ alert("You have not selected Age Group");
         <br>
         <br>
         <be>
-        <input type="submit" value="submit"><!--onclick="validatemyform()"-->
+        <input type="submit" value="submit" onclick="validatemyform()">
       
       
     </form>
